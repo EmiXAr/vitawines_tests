@@ -5,6 +5,7 @@ import time
 import string
 import random
 
+#Especificar la ruta de los controladores de chrome instalados
 driver = webdriver.Chrome(executable_path=r"C:\dchrome\chromedriver.exe")
 driver.get("https://vitawines.cl/")
 driver.maximize_window()
