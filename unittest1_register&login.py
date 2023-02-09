@@ -13,6 +13,7 @@ class test1_unittest(unittest.TestCase):
     user = ''.join(random.choices(string.ascii_letters, k=6))
 
     def setUp(self):
+        #Especificar la ruta de los controladores de chrome instalados
         self.driver = webdriver.Chrome(executable_path=r"C:\dchrome\chromedriver.exe")
 
     def test_new_user(self):
